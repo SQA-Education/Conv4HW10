@@ -133,7 +133,7 @@ const CONFIG = {
     teacher:      "entry.1451249480"
   },
   CLASSES: [
-    {code:"CONV-MW1830", label:"Conversation — Class 7 · Mon/Wed 6:30 PM · Laura Ebel", teacher:"Laura Ebel"}
+    {code:"CONV-MW1830", label:"Conversation — Class 10 · Mon/Wed 6:30 PM · Laura Ebel", teacher:"Laura Ebel"}
   ],
   SESSION_LABEL: "Week 5 - Class 10"
 };
@@ -150,13 +150,13 @@ const CONFIG = {
 
   <div class="passage" style="border-left-color:var(--gold);">
     <h3>Here's the plan 👋</h3>
-    <p>Five short sections. First you'll <strong>listen</strong> to an in-person interaction at a
-    government information window — then answer a few questions. After that you'll
-    practice <strong>bureaucracy vocabulary</strong> (ambiguous, jurisdiction, contradictory,
-    expedite…) and the <strong>embedded questions &amp; softeners</strong> we use to push back
-    politely — "could you please tell me when…", "I was wondering if…"
-    You'll write politely assertive replies to a clerk, then finish with the big section —
-    <strong>speaking</strong>: handling an escalation at the information window.</p>
+    <p>Five short sections. First you'll <strong>listen</strong> to a short audio of an in-person
+    interaction at a government information window — then answer a few questions. After that you'll
+    practice <strong>process &amp; paperwork vocabulary</strong> (ambiguous, jurisdiction, expedite,
+    jargon…) and the <strong>embedded questions &amp; softeners</strong> we use to push back
+    politely — "could you please tell me when…", "I was wondering if…" You'll write polite
+    assertiveness responses, then finish with the big section — <strong>speaking</strong>:
+    escalating a delayed case to a supervisor calmly and firmly.</p>
     <p>Work at your own pace. Nothing submits until you press Finish.</p>
   </div>
 
@@ -181,8 +181,8 @@ const CONFIG = {
   <div class="passage">
     <div class="dateline">Listening · The Mismatched Photo</div>
     <h3>🎧 The Mismatched Photo</h3>
-    <p>David is standing at an agency window. Officer Miller is reviewing a physical document
-    behind the glass partition. Listen carefully, then answer the five questions below.</p>
+    <p>David is standing at an agency window. Officer Miller is reviewing a physical document behind
+    the glass partition. Listen carefully, then answer the five questions below.</p>
     <div style="position:relative;padding-top:56.25%;margin-top:8px;border-radius:12px;overflow:hidden;background:#000;">
       <iframe src="https://drive.google.com/file/d/1eCUJpoRPWhbvW_AhGx8S9gX4qR6s9t2J/preview" allow="autoplay" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
     </div>
@@ -197,7 +197,7 @@ const CONFIG = {
 <!-- ===================== SCREEN 2 — VOCABULARY CLOZE ===================== -->
 <div class="screen" id="s2">
   <div class="progress"><span class="done"></span><span class="now"></span><span></span><span></span><span></span></div>
-  <h2><span class="tag">2 · Vocabulary</span> The Language of the Agency</h2>
+  <h2><span class="tag">2 · Vocabulary</span> The Language of the Process</h2>
   <div class="intro-note">Choose the best word from the box for each blank. Each word is used
   <strong>only once</strong>. There is enough context so that only one option fits perfectly.</div>
 
@@ -209,31 +209,31 @@ const CONFIG = {
 <!-- ===================== SCREEN 3 — WRITING ===================== -->
 <div class="screen" id="s3">
   <div class="progress"><span class="done"></span><span class="done"></span><span class="now"></span><span></span><span></span></div>
-  <h2><span class="tag">3 · Write</span> Politely Assertive Responses</h2>
+  <h2><span class="tag">3 · Write</span> Polite Assertiveness Responses</h2>
   <div class="intro-note">Write a formal, politely assertive response (1–2 sentences) for each clerk
-  statement below. Use a <strong>Softener</strong> + an <strong>Embedded Question</strong> with the
+  statement below. Each response must use a <strong>Softener + an Embedded Question</strong> with
   correct statement word order.</div>
 
   <div class="passage">
-    <p>⚠️ <strong>Each response must:</strong></p>
-    <p>• Begin with a <strong>Softener</strong> ("I understand you are busy…", "I appreciate your
+    <p>⚠️ <strong>For each reply you must:</strong></p>
+    <p>• Open with a <strong>softener</strong> ("I understand you are busy…", "I appreciate your
     guidance…").<br>
-    • Include an <strong>Embedded Question</strong> with statement word order
-    ("…if my file has been assigned yet", not "…has my file been assigned").</p>
+    • Use an <strong>embedded question</strong> with statement word order ("…could you please tell
+    me <em>when my file was assigned</em>" — not "when was my file assigned").</p>
   </div>
 
   <div class="factbox">
     📋 <strong>Respond to each clerk:</strong><br>
-    1. "Your application is still in the queue. Just go home and monitor the online portal."<br>
+    1. "Your application is still in the queue. You just need to go home and monitor the online portal."<br>
     2. "I see the technical glitch on my screen, but I do not have the authorization to change it at this window."<br>
     3. "The system notes are written in internal agency codes. I don't have time to translate them for you."
   </div>
 
-  <textarea id="writingText" placeholder="1. I understand you are busy, but could you tell me whether my file has been assigned to a local officer yet?"></textarea>
+  <textarea id="writingText" placeholder="1. I understand you are busy, but could you tell me whether my file has been assigned to a local officer yet?&#10;2."></textarea>
   <ul class="checklist">
-    <li>A politely assertive response to <strong>all three</strong> clerk statements</li>
-    <li>Each one begins with a <strong>Softener</strong></li>
-    <li>Each one uses an <strong>Embedded Question</strong> (statement word order)</li>
+    <li>One politely assertive reply for each of the three clerk statements</li>
+    <li>Each reply opens with a <strong>softener</strong></li>
+    <li>Each reply uses an <strong>embedded question</strong> (statement word order)</li>
   </ul>
   <div class="feedback info" id="writingFb"></div>
   <button class="btn" onclick="checkWriting()">Check my writing</button>
@@ -243,9 +243,9 @@ const CONFIG = {
 <!-- ===================== SCREEN 4 — LANGUAGE IN USE (GRAMMAR) ===================== -->
 <div class="screen" id="s4">
   <div class="progress"><span class="done"></span><span class="done"></span><span class="done"></span><span class="now"></span><span></span></div>
-  <h2><span class="tag">4 · Language</span> Embedded Questions</h2>
-  <div class="intro-note">Select the single best option (A, B, C, or D) that correctly fills both gaps
-  in the politely assertive response (<strong>softeners &amp; embedded questions</strong>).</div>
+  <h2><span class="tag">4 · Language</span> Embedded Questions &amp; Softeners</h2>
+  <div class="intro-note">Choose the option (A, B, C, or D) that correctly fills <strong>both gaps</strong>
+  in each politely assertive response (<strong>softeners &amp; embedded-question word order</strong>).</div>
 
   <div id="luQs"></div>
   <button class="btn" onclick="go(5)">Next: Speaking →</button>
@@ -256,18 +256,18 @@ const CONFIG = {
   <div class="progress"><span class="done"></span><span class="done"></span><span class="done"></span><span class="done"></span><span class="now"></span></div>
   <h2><span class="tag">5 · Speak ⭐</span> The Escalation Scenario</h2>
   <div class="intro-note">Read the scenario below, then record a short spoken response
-  (<strong>45–60 seconds</strong>). Imagine you are face-to-face with the clerk. Use at least one
-  softener, one embedded question, and explicitly request an escalation to a supervisor.</div>
+  (<strong>45–60 seconds</strong>). Imagine you are face-to-face with the clerk. You must use at
+  least one softener, one embedded question, and explicitly request an escalation to a supervisor.</div>
 
   <div class="passage">
-    <p>🏛️ <strong>The scenario:</strong></p>
+    <p>📋 <strong>The scenario:</strong></p>
     <p style="font-style:italic;">Your green card renewal has been delayed for two years due to a
     massive backlog. The clerk tells you, "There is nothing I can do at this desk. Government
     regulations mandate that you must wait for the automated system to update." You cannot leave
     without an official passport stamp because your driver's license expires tomorrow, and the DMV
     will not renew it without proof of status.</p>
-    <p>🎙️ <strong>Your response must:</strong></p>
-    <p>• Use at least one <strong>softener</strong> and one <strong>embedded question</strong>.<br>
+    <p>🎙️ <strong>Your spoken response must:</strong></p>
+    <p>• Use at least <strong>one softener</strong> and <strong>one embedded question</strong>.<br>
     • Explicitly <strong>request an escalation to a supervisor</strong>.</p>
     <p class="tip" style="margin:6px 0 0;">Try: "I understand this is the policy, but could you tell me whether a supervisor is available?"</p>
   </div>
@@ -394,13 +394,14 @@ const readingBank=[
 function scoreReading(){
   let correct=0;
   readingBank.forEach((item,i)=>{
-    const sel=document.querySelector('input[name="r'+i+'"]:checked');
     const wrap=document.querySelectorAll('#readingQs .q')[i];
-    if(sel){
-      const val=+sel.value;
-      wrap.querySelectorAll('.opt')[item.answer].classList.add('correct');
+    const opts=wrap?wrap.querySelectorAll('.opt'):[];
+    if(opts[item.answer])opts[item.answer].classList.add('correct');
+    const selOpt=wrap?wrap.querySelector('.opt.sel'):null;   // read the VISUAL choice (survives refresh), not :checked
+    if(selOpt){
+      const val=+selOpt.querySelector('input').value;
       if(val===item.answer)correct++;
-      else wrap.querySelectorAll('.opt')[val].classList.add('wrong');
+      else selOpt.classList.add('wrong');
     }
   });
   STATE.reading=Math.round(correct/readingBank.length*MAX.reading);
@@ -454,15 +455,15 @@ function checkWriting(){
 
 /* ===================== SECTION 4 — LANGUAGE IN USE (GRAMMAR) ===================== */
 const luBank=[
-  {q:"1. At the Information Desk<br>Clerk: \"Your background checks are still processing in our system. You just have to wait.\"<br>Applicant: \"I see what you mean, however, ___ (Gap 1) ___ tell me when ___ (Gap 2) ___?\"",
+  {q:"1. Clerk: \"Your background checks are still processing in our system. You just have to wait.\"<br>Applicant: \"I see what you mean, however, ___ (Gap 1) ___ tell me when ___ (Gap 2) ___?\"",
    opts:["do you happen to know if / did the checks start","could you please / the checks started","could you please / did the checks start","do you happen to know if / the checks started"],answer:1},
-  {q:"2. Inquiring About an Error<br>Clerk: \"I see the database glitch on my screen, but I am not authorized to edit files at this window.\"<br>Applicant: \"I understand you are incredibly busy, but ___ (Gap 1) ___ if a supervisor ___ (Gap 2) ___?\"",
+  {q:"2. Clerk: \"I see the database glitch on my screen, but I am not authorized to edit files at this window.\"<br>Applicant: \"I understand you are incredibly busy, but ___ (Gap 1) ___ if a supervisor ___ (Gap 2) ___?\"",
    opts:["could you / is available today","I was wondering / today is available","I was wondering / is available today","could you clarify / today is available"],answer:2},
-  {q:"3. Asking About a Status Shift<br>Clerk: \"The portal updates automatically. There is no need for me to review your paper files.\"<br>Applicant: \"I appreciate your guidance, however, ___ (Gap 1) ___ clarify why my online status ___ (Gap 2) ___?\"",
+  {q:"3. Clerk: \"The portal updates automatically. There is no need for me to review your paper files.\"<br>Applicant: \"I appreciate your guidance, however, ___ (Gap 1) ___ clarify why my online status ___ (Gap 2) ___?\"",
    opts:["do you happen to know if / has been delayed","could you please / has been delayed","could you please / delayed has been","do you happen to know if / delayed has been"],answer:1},
-  {q:"4. Tracking a Missing Document<br>Clerk: \"Our regional field office handles all physical mailings. We don't print anything here.\"<br>Applicant: \"I understand this office has strict rules, but ___ (Gap 1) ___ where my receipt notice ___ (Gap 2) ___?\"",
+  {q:"4. Clerk: \"Our regional field office handles all physical mailings. We don't print anything here.\"<br>Applicant: \"I understand this office has strict rules, but ___ (Gap 1) ___ where my receipt notice ___ (Gap 2) ___?\"",
    opts:["I was hoping you could tell me / was sent","do you know if / was sent","I was hoping you could tell me / did you send it","do you know if / did you send it"],answer:0},
-  {q:"5. Arguing an Unfair Delay<br>Clerk: \"Your file was transferred to our regional facility due to our historic backlog.\"<br>Applicant: \"I see what you mean, however, ___ (Gap 1) ___ know why my case ___ (Gap 2) ___ away from this jurisdiction?\"",
+  {q:"5. Clerk: \"Your file was transferred to our regional facility due to our historic backlog.\"<br>Applicant: \"I see what you mean, however, ___ (Gap 1) ___ know why my case ___ (Gap 2) ___ away from this jurisdiction?\"",
    opts:["I was wondering if / was moved","do you happen to / was moved","do you happen to / did move","I was wondering if / did move"],answer:1}
 ];
 (function(){
@@ -487,13 +488,14 @@ const luBank=[
 function scoreLU(){
   let correct=0;
   luBank.forEach((item,i)=>{
-    const sel=document.querySelector('input[name="lu'+i+'"]:checked');
     const wrap=document.querySelectorAll('#luQs .q')[i];
-    if(sel){
-      const val=+sel.value;
-      wrap.querySelectorAll('.opt')[item.answer].classList.add('correct');
+    const opts=wrap?wrap.querySelectorAll('.opt'):[];
+    if(opts[item.answer])opts[item.answer].classList.add('correct');
+    const selOpt=wrap?wrap.querySelector('.opt.sel'):null;   // read the VISUAL choice (survives refresh), not :checked
+    if(selOpt){
+      const val=+selOpt.querySelector('input').value;
       if(val===item.answer)correct++;
-      else wrap.querySelectorAll('.opt')[val].classList.add('wrong');
+      else selOpt.classList.add('wrong');
     }
   });
   STATE.lu=Math.round(correct/luBank.length*MAX.lu);
@@ -502,10 +504,10 @@ function scoreLU(){
 /* ===================== SECTION 5 — SPEAKING ===================== */
 let recognition=null,recording=false,timerInt=null,secs=0;
 const SPEAK_TARGET=45;
-const LESSON_WORDS=["could you","could you please","would you","i was wondering","i was hoping",
-  "do you happen to","i understand","i appreciate","i see what you mean","supervisor","escalate",
-  "whether","if a supervisor","is available","embedded question","softener","ambiguous","clarify",
-  "compromise","contradictory","expedite","jargon","jurisdiction","backlog","proof of status"];
+const LESSON_WORDS=["could you","could you please","i was wondering","i was hoping","i understand",
+  "i appreciate","i see what you mean","do you happen to","would you mind","supervisor","escalate",
+  "could you tell me","can you tell me","tell me when","tell me whether","tell me if","my case",
+  "my file","processing","backlog","jurisdiction","expedite","clarify","ambiguous","proof of status"];
 function fmt(s){return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
 function toggleRec(){recording?stopRec():startRec();}
 function startRec(){
@@ -563,7 +565,7 @@ function startRec(){
   }
   recording=true;
   document.getElementById('recBtn').textContent='⏹ Stop';
-  document.getElementById('micStatus').innerHTML='<span class="pulse"></span>Recording — speak now!';
+  document.getElementById('micStatus').innerHTML='<span class="pulse"></span>Recording — give your spoken response!';
   timerInt=setInterval(()=>{secs++;document.getElementById('timer').textContent=fmt(secs);},1000);
 }
 function stopRec(){
@@ -602,7 +604,24 @@ function scoreSpeaking(){
 }
 
 /* ===================== RESULTS ===================== */
+function collectAnswers(){
+  var grab=function(bank,qsel){ return bank.map(function(item,i){
+    var wrap=document.querySelectorAll(qsel+' .q')[i];
+    var sel=wrap?wrap.querySelector('.opt.sel'):null;
+    var chosen=sel?+sel.querySelector('input').value:null;
+    var opts=item.opts||[];
+    return {q:i+1,chosen:chosen,chosenText:(chosen!=null?opts[chosen]:null),correct:item.answer,correctText:opts[item.answer],ok:(chosen===item.answer)};
+  }); };
+  var vocab=vocabBank.map(function(item,i){ var el=document.getElementById('v'+i); var v=el?el.value:''; return {q:i+1,chosen:v||null,correct:item.a,ok:!!(v&&v.toLowerCase()===item.a.toLowerCase())}; });
+  return {reading:grab(readingBank,'#readingQs'),grammar:grab(luBank,'#luQs'),vocab:vocab};
+}
 function finish(){
+  var _gB=document.querySelectorAll('#luQs .opt.sel').length<luBank.length;
+  var _rB=document.querySelectorAll('#readingQs .opt.sel').length<readingBank.length;
+  if(_gB||_rB){
+    var _w=[_rB?'the comprehension questions':'',_gB?'the grammar (Language in Use) questions':''].filter(Boolean).join(' and ');
+    if(confirm("It looks like you haven't answered all of "+_w+".\n\nPress OK to go back and finish them, or Cancel to submit as is.")){ go(_gB?4:1); return; }
+  }
   scoreReading();scoreVocab();scoreLU();
   if(!STATE.writingText)STATE.writingText=document.getElementById('writingText').value.trim();
   const pct=Math.round(
@@ -655,7 +674,7 @@ function submitAll(){
   }
   document.body.appendChild(f);
   try{f.submit();}catch(e){}
-  try{fetch("https://ponilnhyehnzycspksah.supabase.co/functions/v1/submit-final",{method:"POST",headers:{"Content-Type":"application/json","apikey":"sb_publishable_YWM3O7i8aHWBGOZM-vAnEw_bR4XStKm","Authorization":"Bearer sb_publishable_YWM3O7i8aHWBGOZM-vAnEw_bR4XStKm"},body:JSON.stringify({sid:(new URLSearchParams(location.search).get('sid')||''),email:(new URLSearchParams(location.search).get('email')||''),name:document.getElementById('studentName').value.trim(),className:chosen.code,level:"Conversation",session:10,writingText:STATE.writingText||"",speakingTranscript:STATE.spokenText||"",scores:{reading:STATE.reading,vocabulary:STATE.vocab,speaking:STATE.speaking,grammar:STATE.lu,percent:pct}})}).catch(function(){});}catch(e){}
+  try{fetch("https://ponilnhyehnzycspksah.supabase.co/functions/v1/submit-final",{method:"POST",headers:{"Content-Type":"application/json","apikey":"sb_publishable_YWM3O7i8aHWBGOZM-vAnEw_bR4XStKm","Authorization":"Bearer sb_publishable_YWM3O7i8aHWBGOZM-vAnEw_bR4XStKm"},body:JSON.stringify({sid:(new URLSearchParams(location.search).get('sid')||''),email:(new URLSearchParams(location.search).get('email')||''),name:document.getElementById('studentName').value.trim(),className:chosen.code,level:"Conversation",session:10,writingText:STATE.writingText||"",speakingTranscript:STATE.spokenText||"",answers:collectAnswers(),scores:{reading:STATE.reading,vocabulary:STATE.vocab,speaking:STATE.speaking,grammar:STATE.lu,percent:pct}})}).catch(function(){});}catch(e){}
   document.getElementById('finishBtn').style.display='none';
   document.getElementById('successMsg').classList.add('show');
   window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
